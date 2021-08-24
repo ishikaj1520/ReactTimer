@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+*{
+ align-items: center;
+ margin: 0;
+ font-family:'Open Sans';
+ color:#333;
+ 
+}
+.preview {
+    display:block;
+    height: 50%;
+    width: 30%;
+    background-color: #F5F5F5;
+  margin: auto; 
+  margin-right:370px; 
+  margin-top:150px;
+  padding: 20px;
+  text-align: center;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+  
+
+  }
+ .preview h1{
+  text-shadow: 5px;
+  padding:10px;
+  margin-top: 50px;
+ margin-right:25px;
+ /* top: 50%;
+ left: 50%; */
+  position:relative;
+  background-size: 100%;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+
+  font-display: center;
+
+} 
+.preview  button{
+    padding:8px;
+    margin-top: 40px;
+ margin-right:15px;
+ margin-bottom:20px ;
+    font-display: center;
+    position: relative; 
+    background-color:black;
+    color: #daf6ff;
+}
+.preview button:hover{
+cursor: pointer;
+}
+
